@@ -173,9 +173,7 @@ int max_flow(FlowGraph& Graph, int from, int to) {
         {
             return flow;
         }
-
-       // if(Graph.get_edge(0).from == Graph.get_edge(0).to)
-       //     break;
+        
         int min_index = 0;
         for (int i = 1; i < path.size(); ++i)
         {
