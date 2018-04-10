@@ -108,7 +108,6 @@ public:
                             Q.push(edges[edges_index].to);
                             dist[this->edges[edges_index].to] = dist[u] +1;
                             prev[edges[edges_index].to] =  make_pair(u,edges_index);
-
                     }
 
                 }
